@@ -1,0 +1,28 @@
+body 
+{
+	width: 800px;
+	margin: 0 auto;
+	background-color: black;
+	color: white;
+}
+
+header, img
+{
+	width: 800px;
+	text-align: center;
+}
+
+header, .choice
+{
+	margin-bottom: 60px;
+}
+
+.result
+{
+	margin-top: 60px;
+}
+
+button
+{
+	cursor: pointer;
+}
