@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>RPS with JavaScript</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+	<main>
+		<header>
+			<img src="images/rps_circles.jpg" alt="rps circles">
+		</header>
+
+		<section class="choice">
+			<h2>Choose your weapon!</h2>
+			<input type="text" id="weapon" placeholder="Rock, Paper, or Scissors?">
+			<button id="play">Go!</button>
+		</section>
+
+		<section class="result">
+			<h3>Waiting for a choice...</h3>
+			<p class="winlose"></p>
+		</section>
+	</main>
+	<!-- NEVER PUT SCRIPTS AT TOP, ALWAYS AT BOTTOM
+		If a site puts script at top, it is wrong and out of date -->
+
+	<script src="js/main.js"></script>
+</body>
+</html>
