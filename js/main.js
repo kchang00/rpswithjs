@@ -55,6 +55,16 @@ function()
 			}
 		}
 
+		else if (player_choice.toLowerCase() == 'paper'){
+			 if (computer.toLowerCase() == 'rock')        {
+				console.log('win');
+				status.textContent = `You won! ${player_choice} beats ${computer}!`;
+			}else {
+				console.log('lose');
+				status.textContent = `You lost! ${computer} beats ${player_choice}!`;
+			}
+		}
+
 		else {
 			alert('Input a valid selection');
 		}
